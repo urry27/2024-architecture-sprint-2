@@ -1,35 +1,7 @@
-# pymongo-api
+Инструкция указана в README.md каждого из проектов:
 
-## Как запустить
+- mongo-sharding
+- mongo-sharding-repl
+- sharding-repl-cache
 
-Запускаем mongodb и приложение
-
-```shell
-docker compose up -d
-```
-
-Заполняем mongodb данными
-
-```shell
-./scripts/mongo-init.sh
-```
-
-## Как проверить
-
-### Если вы запускаете проект на локальной машине
-
-Откройте в браузере http://localhost:8080
-
-### Если вы запускаете проект на предоставленной виртуальной машине
-
-Узнать белый ip виртуальной машины
-
-```shell
-curl --silent http://ifconfig.me
-```
-
-Откройте в браузере http://<ip виртуальной машины>:8080
-
-## Доступные эндпоинты
-
-Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
+Схема тут https://disk.yandex.ru/d/ufz6ZyBf5B3Qwg
